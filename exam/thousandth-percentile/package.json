@@ -1,0 +1,15 @@
+{
+  "name": "thousandth-percentile",
+  "private": true,
+  "scripts": {
+    "test": "npm run test:cover",
+    "test:unit": "mocha",
+    "test:cover": "nyc npm run test:unit"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1",
+    "nyc": "^15.1.0"
+  }
+}
